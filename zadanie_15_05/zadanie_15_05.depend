@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526368927 source:c:\bp\c++2 sem\piatek\zadanie_15_05\main.cpp
+	<iostream>
+	<math.h>
+
