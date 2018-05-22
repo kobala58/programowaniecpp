@@ -1,0 +1,173 @@
+﻿      1. Wynikiem wykonania wyrażenia w języku programowania Pascal 
+ 	(a % 5 >1) &&  ((a>b)  || (b<0)) &&  ((2*b) % 7 =0)
+    dla zmiennej  a=12  i   b=3,5  jest :
+        A. True
+        B. False
+        C. 0
+        D. 1
+
+    2. W kodzie źródłowym programu zastosowano funkcję z parametrami formalnymi.
+       function Test( int a, float  x);
+    W momencie wywołania procedury następuje przekazywanie parametrów przez
+
+        A. Wartość
+        B. Wartość i zmienną
+        C. Zmienną
+        D. Parametr zaktualizowany
+
+    3. Jaki program powinien wykorzystać dział kadr przedsiębiorstwa do przetwarzania danych osobowych pracowników:
+        A. Edukacyjny
+        B. Bazodanowy
+        C. Edytor Tekstu
+        D. Komunikacyjny
+
+    4. Przedstawiony fragment kodu źródłowego  main() {  }
+        A. Definiuję main(), która nie ma argumentów i nie ma zadań do wykonania.
+        B. Definiuje najprostszą postać deklaracji funkcji bibliotecznych programu w C++
+        C. Deklaruje początek programu procedurą main()
+        D. Deklaruje koniec programu procedurą main()
+
+    5. Ile razy w poniższym programie wywołana jest instrukcja przypisania?
+        A. 5
+        B. 4
+        C. 3
+        D. 6
+
+    6. Symbol graficzny  instrukcji warunkowej posiada
+        A. Tylko jedno wejście i jedno wyjście
+        B. Jedno wejście i trzy wyjścia
+        C. Jedno wejście i dwa wyjścia
+        D. Dwa wejścia i dwa wyjścia
+
+    7. Metoda zstępująca programowania strukturalnego polega na
+        A. Programowaniu „od szczegółu do ogółu”.
+        B. Programowanie „od ogółu do szczegółu”.
+        C. Tworzeniu prostych procedur bibliotecznych.
+        D. Opracowaniu ogólnego planu rozwiązania problemu
+
+    8. Zamieszczony algorytm przedstawia strukturę sterującą instrukcji iteracyjnej
+        A. While  -Do
+        B. Repeat – Until
+        C. For – to-do
+        D. For – Downto - Do
+
+    9. Zapis warunku (x > 0) lub (x < 100) przedstawionego w skrzynce decyzyjnej, będzie miał w języku C++ postać:
+        A. If (x>0) AND (x<100) then
+        B. If  (x>0) && (x<100)  
+        C. If (x>0) OR (x<100) then
+        D. If (x>0)  || (x<100)
+
+    10.  W wyniku działania poniższego programu
+        void main( )
+		{
+        int a, b;
+		printf("Poczatek petli\n");
+		for(a=0; a < 4; a++)
+ 		    {for(b=0; b < 4; b++)
+   			    { if((a==2) && (b==1)) break;
+     				printf("a = %d, b = %d\n", a, b);
+                }
+			}
+ 			printf("Koniec petli\n");
+		}
+
+        A. Program zakończy wykonywanie obydwu pętli gdy zmienna a osiągnie wartość 2 , a zmienna b wartość 1.
+        B. Program przerwie wykonywanie tylko pętli, w której jest zwiększana  wartość zmiennej b.
+        C. Program przerwie wykonywanie tylko pętli, w której jest zwiększana  wartość zmiennej a.
+        D. Program nie zostanie przerwany i wypisze wszystkie pary a i b, gdyż ten warunek nie będzie nigdy osiągnięty.
+    
+    11. W wyniku działania poniższego programu 
+        void main(void)
+        {    int a = 5, b = 6, c;
+            c = (a > b) ? a : b;
+            printf("Max(a,b) = %d\n", c);
+        }
+
+	Zmienna c osiągnie wartość:
+        A. 5
+        B. 6
+        C. 5 / 6
+        D. Nie osiągnie żadnej z tych wartości
+
+    12. W wyniku działania poniższego programu  zmienna r osiągnie wartość:
+        void main(void)
+		{int a = 5, b = 3;
+        float r;
+        r = a / b;  
+        cout<<r;
+		}
+
+        A. 1,666667
+        B. 0, 666667
+        C. 1,0000000
+        D. Dzielenie nie wykona się, kompilator zasygnalizuje błąd typów.
+
+    13. Schemat blokowy przedstawia  algorytm
+
+        A. Warunkowy
+        B. Iteracyjny
+        C. Rekurencyjny
+        D. Liniowy
+
+    14. Funkcja test wyznacza
+
+        A. Liczbę znaków zmiennej s
+        B. Ilość znaków 0 w zmiennej s
+        C. Częstość wystąpień znaku ‘i’
+        D. Ilość liczb większych od zera
+
+    15. Które z przedstawionych programów będzie wypisywać liczby całkowite od 2 do 10
+
+    16. W wyniku działania poniższego fragmentu programu zmienna a zostanie wypisana z wartością:
+        int a=5;
+            a++;
+            ++a;
+            cout<<a++<<endl;
+
+        A. 8
+        B. 9
+        C. 7
+        D. 6
+
+    17. W wyniku działania poniższego fragmentu programu zostanie wypisana wartość
+        int x=50;
+        while(x>=10)
+        {    x= x % 2 - 4;
+        ++x;  }
+        cout<<++x<<endl;
+
+        A. 21
+        B. 8
+        C. -3
+        D. -2
+    18. Destruktor w języku C++ to metoda:
+
+    A) wywoływana w momencie tworzenia obiektu
+    B) zwalniająca pamięć przydzielaną dynamicznie w obiekcie
+    C) wywoływana w momencie usuwania obiektu
+    D) porządkująca pamięć operacyjną po usunietych obiektach
+
+
+    19. Konstruktor w języku C++ to metoda:
+    A) przydzielająca pamięć dynamiczną klasie
+    B) przydzielająca pamięć operacyjną klasie
+    C) wywoływana w momencie usuwania obiektu
+    D) wywoływana w momencie tworzenia obiektu
+
+    20. Dziedziczenie w programowaniu obiektowym pozwala na
+    A) łączeniu obiektów
+    B) kopiowanie  cech jednego obiektu do innych
+    C) usunięcie z istniejacych klas zbędnych elementów
+    D) tworzenie nowej klasy na podstawie jednej lub kilku już istniejących
+    
+    21. Instrukcje case x of ..... mozna zastąpić
+    A) instrukcją repeat...until
+    B) petlą sterujacą while ... do
+    C) pętlą sterującą  for ......do...
+    D) instrukcjami warunkowymi
+    
+    22. Które zdanie mówiące o obiektowych metodach programowania jest prawdziwe?
+    A) Pojecie obiekt i klasa można stosować zamiennie
+    B) Zastosowanie obiektu wyklucza użycie klasy
+    C) Klasa jest częścią składową obiektu
+    D) Obiekt jest reprezentantem klasy
